@@ -1,6 +1,6 @@
-import React from "react";
 import Home from "./pages/Home/Home.jsx";
 import Index from "./components/Index/Index.jsx";
+import React, { useState } from "react";
 
 export default function App() {
   // Aquí se guarda el índice que se seleccionó
@@ -24,7 +24,7 @@ export default function App() {
 
   return (
     <>
-      <Home />;
+      <Home />
       <Index
         onSelect={handleSelect}
         selectedIndex={lastSelectedIndex}
