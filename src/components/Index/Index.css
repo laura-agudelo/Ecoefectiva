@@ -1,0 +1,55 @@
+.btn-list {
+  padding: 0;
+  display: flex;
+  flex-direction: column; /* Apila los elementos verticalmente */
+}
+
+.btn-container {
+  position: relative;
+  display: flex; /* Alinea los elementos internos horizontalmente */
+  align-items: center;
+  padding: 0px;
+}
+
+.btn-item {
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+  transition: background-color 0.3s ease;
+  text-align: left;
+}
+
+.btn-item.selected {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+/* Estilos del texto que se desliza */
+.hover-text {
+  position: absolute;
+  top: 50%;
+  left: 100%; /* Lo colocamos en el borde izquierdo del contenedor */
+  transform: translate(0, -50%) translateX(-100%); /* Lo movemos fuera de la pantalla a la izquierda */
+
+  background-color: #555;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  white-space: nowrap;
+
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s ease;
+  z-index: -1; /* Lo ponemos detrás para que no interfiera con el clic del botón */
+  pointer-events: none;
+}
+
+/* Estado al pasar el mouse */
+.btn-container:hover .hover-text.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(0, -50%) translateX(0); /* Lo regresamos a su posición, deslizando hacia adentro */
+  z-index: 1;
+}
