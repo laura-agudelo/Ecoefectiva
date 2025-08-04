@@ -1,7 +1,7 @@
 [
   {
     "title": "Texto extendido para el botón 1",
-    "description": "Un pequeño párrafo para saber que este bien.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.",
     "image": [
       {
         "src": "/src/assets/Images/img1.png",
@@ -17,7 +17,7 @@
   },
   {
     "title": "Texto extendido para el botón 2",
-    "description": "Este es el contenido para el segundo botón.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut nisl vitae purus varius iaculis. Sed ut mauris id nisi tincidunt finibus.",
     "image": [
       {
         "src": "/src/assets/Images/img3.png",
@@ -33,7 +33,7 @@
   },
   {
     "title": "Texto extendido para el botón 3",
-    "description": "Descripción detallada del tercer elemento.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo, velit nec tincidunt malesuada, justo mi accumsan nunc, at facilisis metus ligula at risus. Vivamus fringilla tincidunt nisl, sed lacinia ante rhoncus in. Aenean eu mauris magna. Proin nec viverra leo. Donec sed orci lorem. Sed in quam ut libero fermentum ullamcorper. Pellentesque at posuere magna, nec sagittis justo.",
     "image": [
       {
         "src": "/src/assets/Images/img5.png",
@@ -44,7 +44,7 @@
   },
   {
     "title": "Texto extendido para el botón 4",
-    "description": "Información extra para el cuarto botón.",
+    "description": "Información extra para el cuarto botón. Aquí puedes agregar más detalles o contexto sobre este elemento. Puedes incluir información adicional que sea relevante para el usuario, como instrucciones, consejos o cualquier otro dato que consideres importante.",
     "image": [
       {
         "src": "/src/assets/Images/img6.png",
@@ -55,7 +55,7 @@
   },
   {
     "title": "Texto extendido para el botón 5",
-    "description": "Contenido para el último elemento del índice.",
+    "description": "Contenido para el último elemento del índice. Aquí puedes agregar más información relevante o un resumen de lo que se ha discutido en los otros botones. Puedes incluir detalles adicionales, enlaces a recursos externos o cualquier otra información que consideres importante para el usuario.",
     "image": [
       {
         "src": "/src/assets/Images/img7.png",

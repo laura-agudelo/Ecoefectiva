@@ -31,23 +31,29 @@ export default function App() {
       <div>
         <RollingGallery autoplay={true} pauseOnHover={true} />
       </div>
-      <div className="contenedor-index">
-        <Index
-          onSelect={handleSelect}
-          selectedIndex={lastSelectedIndex}
-          hoverTexts={textsData.map((data) => data.title)}
-        />
 
-        {lastSelectedIndex !== null && (
-          <Card
-            isVisible={showCard}
-            title={textsData[lastSelectedIndex].title}
-            description={textsData[lastSelectedIndex].description}
-            image={textsData[lastSelectedIndex].image}
+      <div></div>
+
+      <div className="contenedor-principal-index">
+        <div className="contenedor-index">
+          <Index
+            onSelect={handleSelect}
+            selectedIndex={lastSelectedIndex}
+            hoverTexts={textsData.map((data) => data.title)}
           />
-        )}
+        </div>
+
+        <div className="contenedor-card">
+          {lastSelectedIndex !== null && (
+            <Card
+              isVisible={showCard}
+              title={textsData[lastSelectedIndex].title}
+              description={textsData[lastSelectedIndex].description}
+              image={textsData[lastSelectedIndex].image}
+            />
+          )}
+        </div>
       </div>
-      <div> </div>
       <div> </div>
       <div> </div>
       <div></div>

@@ -1,8 +1,25 @@
+.contenedor-principal-index {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Alinea los elementos verticalmente al centro */
+  gap: 20px; /* Espacio entre el índice y la card */
+}
+
+/* El `contenedor-index` se encarga de la columna de botones */
 .contenedor-index {
-  justify-content: center; /* Centra los elementos horizontalmente */
-  align-items: center; /* Centra los elementos verticalmente */
-  width: 100vw; /* El ancho del viewport */
-  height: 50vh; /* La altura del viewport */
-  display: flex; /* Para poder controlar la posición de los hijos */
-  margin-top: 5%;
+  width: 20%; /* Ocupa el 20% del espacio horizontal, ajusta según necesites */
+  max-width: 150px; /* Un ancho máximo para evitar que crezca demasiado */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra los botones en su contenedor */
+  height: 100%; /* Ocupa toda la altura del contenedor principal */
+}
+
+/* El `contenedor-card` se encarga de la card */
+.contenedor-card {
+  width: 60%; /* Ocupa la mayor parte del espacio horizontal */
+  height: 100%; /* Ocupa toda la altura del contenedor principal */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
