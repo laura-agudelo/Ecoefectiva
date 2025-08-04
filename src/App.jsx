@@ -25,15 +25,26 @@ export default function App() {
   return (
     <>
       <Home />
-      <Index
-        onSelect={handleSelect}
-        selectedIndex={lastSelectedIndex}
-        hoverTexts={texts}
-      />
-      {/* ---------------------------------------------------- */}
-      {/* Renderiza el otro componente y le pasas el índice como prop */}
-      {/* ---------------------------------------------------- */}
-      {/*<OtroComponente selectedIndex={lastSelectedIndex} />*/}
+      <div>
+        <Index
+          onSelect={handleSelect}
+          selectedIndex={lastSelectedIndex}
+          hoverTexts={texts}
+        />
+        {/* ---------------------------------------------------- */}
+        {/* Renderiza el otro componente y le pasas el índice como prop */}
+        {/* ---------------------------------------------------- */}
+        {/*<OtroComponente selectedIndex={lastSelectedIndex} />*/}
+      </div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
     </>
   );
 }
