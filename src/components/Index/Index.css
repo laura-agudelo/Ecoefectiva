@@ -9,21 +9,26 @@
   display: flex; /* Alinea los elementos internos horizontalmente */
   align-items: center;
   padding: 0px;
+  width: 50px;
+  height: 40px;
 }
 
 .btn-item {
   padding: 10px 20px;
-  background-color: #f0f0f0;
+  background-color: #c7bebe;
+  width: 100%;
   cursor: pointer;
   white-space: nowrap; /* Evita que el texto se divida en varias líneas */
   transition: background-color 0.3s ease;
   text-align: left;
+  border: none;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .btn-item.selected {
-  background-color: #007bff;
+  background-color: #2e7d32;
   color: white;
-  border-color: #007bff;
+  border-color: #153a1a;
 }
 
 /* Estilos del texto que se desliza */
@@ -33,10 +38,9 @@
   left: 100%; /* Lo colocamos en el borde izquierdo del contenedor */
   transform: translate(0, -50%) translateX(-100%); /* Lo movemos fuera de la pantalla a la izquierda */
 
-  background-color: #555;
-  color: white;
+  background-color: #85be44;
+  color: rgb(44, 38, 38);
   padding: 5px 10px;
-  border-radius: 4px;
   white-space: nowrap;
 
   opacity: 0;
@@ -52,4 +56,11 @@
   visibility: visible;
   transform: translate(0, -50%) translateX(0); /* Lo regresamos a su posición, deslizando hacia adentro */
   z-index: 1;
+}
+
+.contenedor-principal ul {
+  width: 5%;
+  list-style: none;
+  padding: 0;
+  margin: 3%;
 }
