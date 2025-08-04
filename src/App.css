@@ -2,6 +2,6 @@
   justify-content: center; /* Centra los elementos horizontalmente */
   align-items: center; /* Centra los elementos verticalmente */
   width: 100vw; /* El ancho del viewport */
-  height: 100vh; /* La altura del viewport */
+  height: 50vh; /* La altura del viewport */
   display: flex; /* Para poder controlar la posición de los hijos */
 }

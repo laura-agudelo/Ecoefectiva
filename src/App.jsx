@@ -35,7 +35,11 @@ export default function App() {
   return (
     <>
       <Home />
+
       <div>
+        <RollingGallery autoplay={true} pauseOnHover={true} />
+      </div>
+      <div className="contenedor-principal">
         <Index
           onSelect={handleSelect}
           selectedIndex={lastSelectedIndex}
@@ -50,7 +54,6 @@ export default function App() {
           />
         )}
       </div>
-      <div></div>
       <div></div>
       <div></div>
       <div></div>
