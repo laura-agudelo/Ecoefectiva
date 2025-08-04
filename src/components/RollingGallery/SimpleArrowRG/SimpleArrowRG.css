@@ -1,0 +1,73 @@
+.carousel {
+  position: relative;
+  width: 100%;
+  max-width: 800px; /* Ancho máximo del carrusel */
+  margin: 0 auto;
+  overflow: hidden; /* Oculta los slides que están fuera de la vista */
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out; /* Transición suave para el movimiento */
+}
+
+.carousel-item {
+  min-width: 100%; /* Cada slide ocupa el 100% del contenedor visible */
+  flex-shrink: 0;
+  position: relative;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Controles de navegación (flechas) */
+.carousel-control {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 10;
+  user-select: none;
+}
+
+.carousel-control.prev {
+  left: 10px;
+}
+
+.carousel-control.next {
+  right: 10px;
+}
+
+/* Indicadores (puntos) */
+.carousel-indicators {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+  z-index: 10;
+}
+
+.indicator {
+  width: 10px;
+  height: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.indicator.active {
+  background-color: white;
+}

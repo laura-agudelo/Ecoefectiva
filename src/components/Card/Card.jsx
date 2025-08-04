@@ -1,4 +1,5 @@
 import React from "react";
+import SimpleArrowRG from "../RollingGallery/SimpleArrowRG/SimpleArrowRG.jsx";
 import "./Card.css";
 
 function Card({ title, description, image, isVisible }) {
@@ -10,7 +11,9 @@ function Card({ title, description, image, isVisible }) {
       <div className="card-body">
         <p>{description}</p>
       </div>
-      <div className="card-footer"></div>
+      <div className="card-footer">
+        <SimpleArrowRG data={image} />
+      </div>
     </div>
   );
 }

@@ -4,6 +4,8 @@ import React, { useState } from "react";
 import RollingGallery from "./components/RollingGallery/RolligGallery.jsx";
 import Card from "./components/Card/Card.jsx";
 import "./App.css";
+import textsData from "./assets/data/Card.json";
+
 export default function App() {
   // Aquí se guarda el índice que se seleccionó
   const [lastSelectedIndex, setLastSelectedIndex] = useState(0);
@@ -22,16 +24,6 @@ export default function App() {
     }, 300); // 300ms es un buen tiempo para una transición suave
   };
 
-  const texts = [
-    "Texto extendido para el botón 1",
-    "Texto extendido para el botón 2",
-    "Texto extendido para el botón 3",
-    "Texto extendido para el botón 4",
-    "Texto extendido para el botón 5",
-    "Texto extendido para el botón 6",
-    "Texto extendido para el botón 7",
-  ];
-
   return (
     <>
       <Home />
@@ -39,24 +31,25 @@ export default function App() {
       <div>
         <RollingGallery autoplay={true} pauseOnHover={true} />
       </div>
-      <div className="contenedor-principal">
+      <div className="contenedor-index">
         <Index
           onSelect={handleSelect}
           selectedIndex={lastSelectedIndex}
-          hoverTexts={texts}
+          hoverTexts={textsData.map((data) => data.title)}
         />
+
         {lastSelectedIndex !== null && (
           <Card
             isVisible={showCard}
-            title={texts[lastSelectedIndex]}
-            description={"un pequeño parrafo para saber que este bien"}
-            image="/static/images/cards/contemplative-reptile.jpg"
+            title={textsData[lastSelectedIndex].title}
+            description={textsData[lastSelectedIndex].description}
+            image={textsData[lastSelectedIndex].image}
           />
         )}
       </div>
-      <div></div>
-      <div></div>
-      <div></div>
+      <div> </div>
+      <div> </div>
+      <div> </div>
       <div></div>
       <div></div>
       <div></div>

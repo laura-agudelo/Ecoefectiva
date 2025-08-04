@@ -1,6 +1,8 @@
 .card {
-  width: 300px;
-  border: 1px solid #ddd;
+  width: 400px; /* Ancho fijo para la card */
+  height: 350px; /* Alto fijo para la card, ajusta según el contenido */
+  background-color: rgba(37, 102, 28, 0.322);
+  border: 1px solid #f4f4f4;
   border-radius: 8px;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
   padding: 16px;

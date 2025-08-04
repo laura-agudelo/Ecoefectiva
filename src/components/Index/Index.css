@@ -46,7 +46,7 @@
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s ease;
-  z-index: -1; /* Lo ponemos detrás para que no interfiera con el clic del botón */
+  z-index: 5; /* Lo ponemos detrás para que no interfiera con el clic del botón */
   pointer-events: none;
 }
 
@@ -55,7 +55,7 @@
   opacity: 1;
   visibility: visible;
   transform: translate(0, -50%) translateX(0); /* Lo regresamos a su posición, deslizando hacia adentro */
-  z-index: 1;
+  z-index: 11;
 }
 
 .contenedor-principal ul {

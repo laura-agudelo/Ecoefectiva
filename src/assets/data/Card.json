@@ -1,0 +1,67 @@
+[
+  {
+    "title": "Texto extendido para el botón 1",
+    "description": "Un pequeño párrafo para saber que este bien.",
+    "image": [
+      {
+        "src": "/src/assets/Images/img1.png",
+        "title": "Slide 1a",
+        "text": "Descripción del slide 1a"
+      },
+      {
+        "src": "/src/assets/Images/img2.jpg",
+        "title": "Slide 1b",
+        "text": "Descripción del slide 1b"
+      }
+    ]
+  },
+  {
+    "title": "Texto extendido para el botón 2",
+    "description": "Este es el contenido para el segundo botón.",
+    "image": [
+      {
+        "src": "/src/assets/Images/img3.png",
+        "title": "Slide 2a",
+        "text": "Descripción del slide 2a"
+      },
+      {
+        "src": "/src/assets/Images/img4.png",
+        "title": "Slide 2b",
+        "text": "Descripción del slide 2b"
+      }
+    ]
+  },
+  {
+    "title": "Texto extendido para el botón 3",
+    "description": "Descripción detallada del tercer elemento.",
+    "image": [
+      {
+        "src": "/src/assets/Images/img5.png",
+        "title": "Slide 3a",
+        "text": "Descripción del slide 3a"
+      }
+    ]
+  },
+  {
+    "title": "Texto extendido para el botón 4",
+    "description": "Información extra para el cuarto botón.",
+    "image": [
+      {
+        "src": "/src/assets/Images/img6.png",
+        "title": "Slide 4a",
+        "text": "Descripción del slide 4a"
+      }
+    ]
+  },
+  {
+    "title": "Texto extendido para el botón 5",
+    "description": "Contenido para el último elemento del índice.",
+    "image": [
+      {
+        "src": "/src/assets/Images/img7.png",
+        "title": "Slide 5a",
+        "text": "Descripción del slide 5a"
+      }
+    ]
+  }
+]
