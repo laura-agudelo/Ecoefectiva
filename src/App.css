@@ -1,25 +1,32 @@
-.contenedor-principal-index {
-  display: flex;
-  justify-content: center;
-  align-items: center; /* Alinea los elementos verticalmente al centro */
-  gap: 20px; /* Espacio entre el índice y la card */
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-/* El `contenedor-index` se encarga de la columna de botones */
+.contenedor-principal-index {
+  display: flex;
+  padding-top: 5%;
+  align-items: center; /* Cambia de flex-start a center */
+}
+
 .contenedor-index {
   width: 20%; /* Ocupa el 20% del espacio horizontal, ajusta según necesites */
   max-width: 150px; /* Un ancho máximo para evitar que crezca demasiado */
   display: flex;
-  flex-direction: column;
-  align-items: center; /* Centra los botones en su contenedor */
+  flex-direction: row-reverse;
+  padding-right: 1%;
+  align-items: center;
   height: 100%; /* Ocupa toda la altura del contenedor principal */
 }
 
-/* El `contenedor-card` se encarga de la card */
 .contenedor-card {
   width: 60%; /* Ocupa la mayor parte del espacio horizontal */
   height: 100%; /* Ocupa toda la altura del contenedor principal */
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
+  padding-left: 1%;
 }

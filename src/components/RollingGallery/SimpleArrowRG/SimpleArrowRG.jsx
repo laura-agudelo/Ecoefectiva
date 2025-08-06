@@ -1,12 +1,11 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import "./SimpleArrowRG.css"; // Asegúrate de tener un archivo CSS para los estilos
-import ImagenModal from "../../ImageModal/ImageModal.jsx"; // Importa el componente del modal
+import ImagenModal from "../../Modal/ImageModal/ImageModal.jsx"; // Importa el componente del modal
 
 function SimpleArrowRG({ data }) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [modalOpen, setModalOpen] = useState(false);
-  const [selectedImage, setSelectedImage] = useState(null);
 
   const prevSlide = () => {
     setCurrentIndex(currentIndex === 0 ? data.length - 1 : currentIndex - 1);
@@ -16,23 +15,20 @@ function SimpleArrowRG({ data }) {
     setCurrentIndex(currentIndex === data.length - 1 ? 0 : currentIndex + 1);
   };
 
-  const openModal = (imageSrc) => {
-    setSelectedImage(imageSrc);
+  const openModal = () => {
     setModalOpen(true);
   };
 
   const closeModal = () => {
     setModalOpen(false);
-    setSelectedImage(null);
   };
 
-  // Puedes añadir una función para avanzar automáticamente
   useEffect(() => {
     const interval = setInterval(() => {
       nextSlide();
-    }, 5000); // Cambia de slide cada 5 segundos
+    }, 5000);
     return () => clearInterval(interval);
-  }, [currentIndex]); // Se reinicia cada vez que cambia el slide
+  }, [currentIndex]);
 
   return (
     <>
@@ -74,7 +70,11 @@ function SimpleArrowRG({ data }) {
         </div>
       </div>
       {modalOpen && (
-        <ImagenModal imageSrc={selectedImage} onClose={closeModal} />
+        <ImagenModal
+          data={data}
+          initialIndex={currentIndex}
+          onClose={closeModal}
+        />
       )}
     </>
   );

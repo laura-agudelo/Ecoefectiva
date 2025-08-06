@@ -30,7 +30,13 @@ function Index({ onSelect, selectedIndex, hoverTexts }) {
             className={`btn-item ${index === selectedIndex ? "selected" : ""}`}
             onClick={() => onSelect(index)}
           >
-            {item}
+            {index === selectedIndex ? (
+              <span>&#128167;</span> // Gota de agua
+            ) : hoveredIndex === index ? (
+              <span>&#128167;</span> // Gota de agua al pasar el mouse
+            ) : (
+              <span>{index + 1}</span> // Número por defecto
+            )}
           </button>
           <span
             className={`hover-text ${
