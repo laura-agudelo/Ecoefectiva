@@ -3,7 +3,7 @@
   min-width: 300px;
   width: 100%;
   max-width: 800px;
-  background-color: rgba(37, 102, 28, 0.322);
+  background-color: #34b36b;
   padding: 20px; /* Añade un padding para el contenido */
   display: flex;
   flex-direction: column;
@@ -33,7 +33,7 @@
 .card p {
   margin: 2%;
   font-size: 1em;
-  color: #555;
+  color: #000401;
 }
 
 .card img {

@@ -44,7 +44,6 @@
   top: 50%;
   left: 100%; /* Lo colocamos en el borde izquierdo del contenedor */
   transform: translate(0, -50%) translateX(-100%); /* Lo movemos fuera de la pantalla a la izquierda */
-
   background-color: #85be44;
   color: rgb(44, 38, 38);
   padding: 5px 10px;

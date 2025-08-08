@@ -9,12 +9,13 @@ body,
 .contenedor-principal-index {
   display: flex;
   padding-top: 5%;
+  padding-bottom: 5%;
   align-items: center; /* Cambia de flex-start a center */
+  background-color: #94eebb;
 }
 
 .contenedor-index {
   width: 20%; /* Ocupa el 20% del espacio horizontal, ajusta según necesites */
-  max-width: 150px; /* Un ancho máximo para evitar que crezca demasiado */
   display: flex;
   flex-direction: row-reverse;
   padding-right: 1%;
@@ -23,7 +24,6 @@ body,
 }
 
 .contenedor-card {
-  width: 60%; /* Ocupa la mayor parte del espacio horizontal */
   height: 100%; /* Ocupa toda la altura del contenedor principal */
   display: flex;
   justify-content: left;

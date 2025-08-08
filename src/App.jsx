@@ -14,7 +14,7 @@ export default function App() {
   const [lastSelectedIndex, setLastSelectedIndex] = useState(0);
   // Aquí se guarda el estado del componente Card
   const [showCard, setShowCard] = useState(true);
-  const id = 0;
+
   const handleSelect = (index) => {
     // 1. Oculta la card
     setShowCard(false);
@@ -57,13 +57,14 @@ export default function App() {
           )}
         </div>
       </div>
+      <div></div>
       <div>
         <TwoColumn
-          title={twoColomData[id].title}
-          text={twoColomData[id].text}
-          url={twoColomData[id].mediaUrl}
-          mediaType={twoColomData[id].mediaType}
-          textOnLeft={twoColomData[id].textOnLeft}
+          title={twoColomData[0].title}
+          text={twoColomData[0].text}
+          url={twoColomData[0].mediaUrl}
+          mediaType={twoColomData[0].mediaType}
+          textOnLeft={twoColomData[0].textOnLeft}
         />
       </div>
       <div>
@@ -84,8 +85,26 @@ export default function App() {
           textOnLeft={twoColomData[2].textOnLeft}
         />
       </div>
-      <div></div>
-      <div></div>
+      <div className="contenedor-principal-index">
+        <div className="contenedor-index">
+          <Index
+            onSelect={handleSelect}
+            selectedIndex={lastSelectedIndex}
+            hoverTexts={textsData.map((data) => data.title)}
+          />
+        </div>
+
+        <div className="contenedor-card">
+          {lastSelectedIndex !== null && (
+            <Card
+              isVisible={showCard}
+              title={textsData[lastSelectedIndex].title}
+              description={textsData[lastSelectedIndex].description}
+              image={textsData[lastSelectedIndex].image}
+            />
+          )}
+        </div>
+      </div>
       <div></div>
     </>
   );

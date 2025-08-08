@@ -3,21 +3,36 @@
   gap: 40px;
   padding: 50px;
   background-color: #f8f8f8;
+  overflow: hidden;
 }
 
-/* Por defecto, el texto está a la izquierda */
 .two-column-container .text-content {
-  flex: 1; /* Ocupa el espacio disponible */
+  flex: 1;
+  opacity: 0;
+  transform: translateX(0);
+  transition: all 0.8s ease-out;
+}
+
+.text-content.from-left {
+  transform: translateX(-50px);
+}
+
+.text-content.from-right {
+  transform: translateX(50px);
+}
+
+.text-content.show {
+  opacity: 1;
+  transform: translateX(0);
 }
 
 .two-column-container .media-content {
-  flex: 1; /* Ocupa el espacio disponible */
+  flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* Invierte el orden cuando se aplica la clase 'reverse' */
 .two-column-container.reverse {
   flex-direction: row-reverse;
 }
