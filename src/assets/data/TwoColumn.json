@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Descripción de la tecnología",
+    "text": "BIOMODULO COMMUNITY PAM Se compone principalmente de un módulo denominado biofiltro, el cual está constituido por una cama de viruta y un lecho filtrante natural. En esta estructura, se establece un micro ecosistema que cuenta con una alta densidad de lombrices terrestres, flora microbiana y hongos descomponedores. Estos elementos presentan notables habilidades degradadoras en el tratamiento de residuos orgánicos.",
+    "mediaUrl": "/src/assets/Videos/TratamientoAguasResidualesLaCochaPAMPlantasAeróbiasModulares.mp4",
+    "mediaType": "video",
+    "textOnLeft": false
+  },
+  {
+    "title": "Título de la segunda sección",
+    "text": "Este es el texto de la segunda sección. Puedes describir las características o beneficios del producto o servicio. La flexibilidad del componente te permite alternar el orden de la imagen y el texto para crear un diseño dinámico en tu página.",
+    "mediaUrl": "/src/assets/Images/img1.png",
+    "mediaType": "image",
+    "textOnLeft": true
+  },
+  {
+    "title": "Título de la tercera sección",
+    "text": "Un tercer bloque para continuar presentando información. Aquí el texto vuelve a estar a la derecha para un diseño en zig-zag.",
+    "mediaUrl": "/src/assets/Images/img2.jpg",
+    "mediaType": "image",
+    "textOnLeft": false
+  }
+]

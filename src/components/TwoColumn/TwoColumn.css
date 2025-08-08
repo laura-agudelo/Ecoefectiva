@@ -1,0 +1,39 @@
+.two-column-container {
+  display: flex;
+  gap: 40px;
+  padding: 50px;
+  background-color: #f8f8f8;
+}
+
+/* Por defecto, el texto está a la izquierda */
+.two-column-container .text-content {
+  flex: 1; /* Ocupa el espacio disponible */
+}
+
+.two-column-container .media-content {
+  flex: 1; /* Ocupa el espacio disponible */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Invierte el orden cuando se aplica la clase 'reverse' */
+.two-column-container.reverse {
+  flex-direction: row-reverse;
+}
+
+.two-column-container h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.two-column-container p {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+.two-column-container img,
+.two-column-container video {
+  width: 100%;
+  max-height: 500px;
+}
