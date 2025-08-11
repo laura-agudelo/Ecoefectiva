@@ -1,66 +1,34 @@
 [
   {
-    "title": "Texto extendido para el botón 1",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.",
+    "title": "CÁMARA DE REJAS",
+    "description": "En esta unidad de pretratamiento, las aguas servidas provenientes de las alcantarillas son recibidas con el objetivo de retener y separar elementos sólidos de espesor mayor a 2 cm, los cuales se encuentran en suspensión y son arrastrados por el flujo de aguas residuales. En esta fase, se lleva a cabo la eliminación de sólidos como papeles, ramas, trapos, plásticos y, especialmente, material no biodegradable.",
     "image": [
       {
         "src": "/src/assets/Images/img1.png",
-        "title": "Slide 1a",
-        "text": "Descripción del slide 1a"
-      },
-      {
-        "src": "/src/assets/Images/img2.jpg",
-        "title": "Slide 1b",
-        "text": "Descripción del slide 1b"
+        "title": "Cámara de Rejas",
+        "text": "Unidad de pretratamiento que retiene sólidos grandes."
       }
     ]
   },
   {
-    "title": "Texto extendido para el botón 2",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut nisl vitae purus varius iaculis. Sed ut mauris id nisi tincidunt finibus.",
+    "title": "DESARENADOR",
+    "description": "Las aguas procedentes de la cámara de rejas ingresan a esta unidad, que funciona como un pretratamiento destinado principalmente a la separación por gravedad de partículas de alta densidad en suspensión, tales como arenas, limos y arcillas. Estas partículas forman parte del flujo del agua residual y tienden a generar acumulación de sedimentos, depósitos en tuberías, abrasión en rodetes de bombas y equipos, disminuyendo la capacidad hidráulica de los procesos subsiguientes.",
     "image": [
       {
-        "src": "/src/assets/Images/img3.png",
-        "title": "Slide 2a",
-        "text": "Descripción del slide 2a"
-      },
-      {
-        "src": "/src/assets/Images/img4.png",
-        "title": "Slide 2b",
-        "text": "Descripción del slide 2b"
+        "src": "/src/assets/Images/DESARENADOR.png",
+        "title": "Desarenador",
+        "text": "Unidad que separa partículas de alta densidad."
       }
     ]
   },
   {
-    "title": "Texto extendido para el botón 3",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo, velit nec tincidunt malesuada, justo mi accumsan nunc, at facilisis metus ligula at risus. Vivamus fringilla tincidunt nisl, sed lacinia ante rhoncus in. Aenean eu mauris magna. Proin nec viverra leo. Donec sed orci lorem. Sed in quam ut libero fermentum ullamcorper. Pellentesque at posuere magna, nec sagittis justo.",
+    "title": "TANQUE DE IMPULSIÓN O PLANTA ELEVADORA",
+    "description": "Las aguas provenientes del efluente sanitario, previamente filtradas en el canastillo de acero inoxidable, son dirigidas a este tanque. Equipado con dos bombas sumergibles que operan alternadamente, controladas por impulsos eléctricos generados desde sensores de nivel y temporizadores de funcionamiento. Estas bombas se encienden y apagan automáticamente e impulsan las aguas a través del sistema de riego hacia el filtro percolador. Este sistema de bombeo está programado para activarse cada 40 minutos y operar durante 15 minutos, aunque estos tiempos se ajustan según el caudal de la descarga.",
     "image": [
       {
-        "src": "/src/assets/Images/img5.png",
-        "title": "Slide 3a",
-        "text": "Descripción del slide 3a"
-      }
-    ]
-  },
-  {
-    "title": "Texto extendido para el botón 4",
-    "description": "Información extra para el cuarto botón. Aquí puedes agregar más detalles o contexto sobre este elemento. Puedes incluir información adicional que sea relevante para el usuario, como instrucciones, consejos o cualquier otro dato que consideres importante.",
-    "image": [
-      {
-        "src": "/src/assets/Images/img6.png",
-        "title": "Slide 4a",
-        "text": "Descripción del slide 4a"
-      }
-    ]
-  },
-  {
-    "title": "Texto extendido para el botón 5",
-    "description": "Contenido para el último elemento del índice. Aquí puedes agregar más información relevante o un resumen de lo que se ha discutido en los otros botones. Puedes incluir detalles adicionales, enlaces a recursos externos o cualquier otra información que consideres importante para el usuario.",
-    "image": [
-      {
-        "src": "/src/assets/Images/img7.png",
-        "title": "Slide 5a",
-        "text": "Descripción del slide 5a"
+        "src": "/src/assets/Images/TanqueImpulsiónOPlantaElevadora.png",
+        "title": "Tanque de Impulsión",
+        "text": "Tanque con bombas sumergibles que impulsan las aguas."
       }
     ]
   }

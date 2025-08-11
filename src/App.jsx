@@ -6,13 +6,14 @@ import RollingGallery from "./components/RollingGallery/RolligGallery.jsx";
 import Card from "./components/Card/Card.jsx";
 import TwoColumn from "./components/TwoColumn/TwoColumn.jsx";
 import Testimonios from "./components/Testimonios/Testimonios.jsx";
+import ImagenCard from "./components/Card/ImagenCard/ImagenCard.jsx";
+import Counter from "./components/counter/Counter.jsx";
 import textsData from "./assets/data/Card.json";
 import twoColomData from "./assets/data/TwoColumn.json";
-import Counter from "./components/counter/Counter.jsx";
-import AnnouncementBar from './components/AnnouncementBar/AnnouncementBar';
+import ImagenCardData from "./assets/data/imagenCard.json";
+import AnnouncementBar from "./components/AnnouncementBar/AnnouncementBar";
 import "./styles/globals.css";
 import "./App.css";
-import ImagenCard from "./components/Card/ImagenCard/ImagenCard.jsx";
 
 export default function App() {
   // Aquí se guarda el índice que se seleccionó
@@ -35,18 +36,21 @@ export default function App() {
   return (
     <>
       <Home />
- 
+
       <div>
         <RollingGallery autoplay={true} pauseOnHover={true} />
       </div>
 
-   <div>
-      <Counter/>
-    </div>
       <div>
-        <ImagenCard></ImagenCard>
+        <Counter />
       </div>
-    
+      <div>
+        <ImagenCard
+          title={ImagenCardData[0].title}
+          image={ImagenCardData[0].image}
+          description={ImagenCardData[0].description}
+        ></ImagenCard>
+      </div>
 
       <div className="contenedor-principal-index">
         <div className="contenedor-index">

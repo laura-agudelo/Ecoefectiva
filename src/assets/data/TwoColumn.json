@@ -1,22 +1,22 @@
 [
   {
-    "title": "Descripción de la tecnología",
-    "text": "BIOMODULO COMMUNITY PAM Se compone principalmente de un módulo denominado biofiltro, el cual está constituido por una cama de viruta y un lecho filtrante natural. En esta estructura, se establece un micro ecosistema que cuenta con una alta densidad de lombrices terrestres, flora microbiana y hongos descomponedores. Estos elementos presentan notables habilidades degradadoras en el tratamiento de residuos orgánicos.",
-    "mediaUrl": "/src/assets/Videos/TratamientoAguasResidualesLaCochaPAMPlantasAeróbiasModulares.mp4",
-    "mediaType": "video",
+    "title": "Sin Límite de Caudal",
+    "text": "BIOMODULO COMMUNITY tiene la capacidad de abordar eficazmente los vertimientos, 0.05 a 80 L/s, ya sea de una residencia con 5 habitantes o de ciudades medianas con poblaciones que alcanzan los 500,000 habitantes o incluso un millón. Su versatilidad y eficiencia se traducen en una solución escalable que se adapta a diferentes necesidades, garantizando un tratamiento efectivo de las aguas residuales, independientemente del tamaño de la comunidad atendida.",
+    "mediaUrl": "/src/assets/Images/SinLimiteCaudal.png",
+    "mediaType": "image",
     "textOnLeft": false
   },
   {
-    "title": "Título de la segunda sección",
-    "text": "Este es el texto de la segunda sección. Puedes describir las características o beneficios del producto o servicio. La flexibilidad del componente te permite alternar el orden de la imagen y el texto para crear un diseño dinámico en tu página.",
-    "mediaUrl": "/src/assets/Images/img1.png",
+    "title": "Ausencia de Olor",
+    "text": "BIOFILTRO COMMUNITY PAM presenta ausencia de aguas estancadas en proceso de descomposición, elimina la necesidad de emplear componentes químicos como cal, policloruro de aluminio, soda cáustica, entre otros. Este enfoque no solo previene la generación de ácido sulfhídrico, metano y otros subproductos químicos, sino que también evita la emisión de olores desagradables perceptibles por el sentido del olfato humano.",
+    "mediaUrl": "/src/assets/Images/AusenciaOLOR.png",
     "mediaType": "image",
     "textOnLeft": true
   },
   {
-    "title": "Título de la tercera sección",
-    "text": "Un tercer bloque para continuar presentando información. Aquí el texto vuelve a estar a la derecha para un diseño en zig-zag.",
-    "mediaUrl": "/src/assets/Images/img2.jpg",
+    "title": "Ausencia de Lodos Activados",
+    "text": "No se generan lodos activados, lo cual presenta una particular relevancia para entidades como la Junta Administradora de Acueducto y Alcantarillado, municipios, centros poblados, industrias y proyectos de parcelación campestre. Estas instancias carecen de un vertedero adecuado para recibir tales desechos, así como de las instalaciones y equipos necesarios para retirar y tratar estos lodos altamente contaminantes, que no poseen propiedades ni utilidad para la generación de abono agrícola con características orgánicas.",
+    "mediaUrl": "/src/assets/Images/lodos.jpg",
     "mediaType": "image",
     "textOnLeft": false
   }
