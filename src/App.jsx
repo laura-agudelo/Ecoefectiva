@@ -5,6 +5,7 @@ import Index from "./components/Index/Index.jsx";
 import RollingGallery from "./components/RollingGallery/RolligGallery.jsx";
 import Card from "./components/Card/Card.jsx";
 import TwoColumn from "./components/TwoColumn/TwoColumn.jsx";
+import Testimonios from "./components/Testimonios/Testimonios.jsx";
 import textsData from "./assets/data/Card.json";
 import twoColomData from "./assets/data/TwoColumn.json";
 import "./App.css";
@@ -105,7 +106,9 @@ export default function App() {
           )}
         </div>
       </div>
-      <div></div>
+      <div>
+        <Testimonios></Testimonios>
+      </div>
     </>
   );
 }
