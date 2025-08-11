@@ -5,12 +5,14 @@ import Index from "./components/Index/Index.jsx";
 import RollingGallery from "./components/RollingGallery/RolligGallery.jsx";
 import Card from "./components/Card/Card.jsx";
 import TwoColumn from "./components/TwoColumn/TwoColumn.jsx";
+import Testimonios from "./components/Testimonios/Testimonios.jsx";
 import textsData from "./assets/data/Card.json";
 import twoColomData from "./assets/data/TwoColumn.json";
 import Counter from "./components/counter/Counter.jsx";
 import AnnouncementBar from './components/AnnouncementBar/AnnouncementBar';
 import "./styles/globals.css";
 import "./App.css";
+import ImagenCard from "./components/Card/ImagenCard/ImagenCard.jsx";
 
 export default function App() {
   // Aquí se guarda el índice que se seleccionó
@@ -38,6 +40,9 @@ export default function App() {
         <RollingGallery autoplay={true} pauseOnHover={true} />
       </div>
 
+      <div>
+        <ImagenCard></ImagenCard>
+      </div>
        <div>
       <Counter/>
     </div>
@@ -109,6 +114,9 @@ export default function App() {
             />
           )}
         </div>
+      </div>
+      <div>
+        <Testimonios></Testimonios>
       </div>
       <AnnouncementBar />
       <div></div>

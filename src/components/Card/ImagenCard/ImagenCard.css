@@ -1,0 +1,32 @@
+.card-contenedor {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.card-titel {
+  text-align: center;
+}
+
+.card-titel h1 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.card-imagen {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.card-imagen img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.card-texto {
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: center;
+}
