@@ -7,6 +7,9 @@ import Card from "./components/Card/Card.jsx";
 import TwoColumn from "./components/TwoColumn/TwoColumn.jsx";
 import textsData from "./assets/data/Card.json";
 import twoColomData from "./assets/data/TwoColumn.json";
+import Counter from "./components/counter/Counter.jsx";
+import AnnouncementBar from './components/AnnouncementBar/AnnouncementBar';
+import "./styles/globals.css";
 import "./App.css";
 
 export default function App() {
@@ -30,12 +33,14 @@ export default function App() {
   return (
     <>
       <Home />
-
+ 
       <div>
         <RollingGallery autoplay={true} pauseOnHover={true} />
       </div>
 
-      <div></div>
+       <div>
+      <Counter/>
+    </div>
 
       <div className="contenedor-principal-index">
         <div className="contenedor-index">
@@ -105,6 +110,7 @@ export default function App() {
           )}
         </div>
       </div>
+      <AnnouncementBar />
       <div></div>
     </>
   );
