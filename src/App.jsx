@@ -9,6 +9,7 @@ import Testimonios from "./components/Testimonios/Testimonios.jsx";
 import textsData from "./assets/data/Card.json";
 import twoColomData from "./assets/data/TwoColumn.json";
 import "./App.css";
+import ImagenCard from "./components/Card/ImagenCard/ImagenCard.jsx";
 
 export default function App() {
   // Aquí se guarda el índice que se seleccionó
@@ -36,7 +37,9 @@ export default function App() {
         <RollingGallery autoplay={true} pauseOnHover={true} />
       </div>
 
-      <div></div>
+      <div>
+        <ImagenCard></ImagenCard>
+      </div>
 
       <div className="contenedor-principal-index">
         <div className="contenedor-index">
