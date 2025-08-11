@@ -7,6 +7,7 @@
   align-items: center;
   font-family: 'inika', sans-serif;
   font-size: 1rem;
+  
 }
 
 
@@ -15,12 +16,14 @@
   width: 100%;
   overflow: hidden;
   position: relative;
+  
 }
 
 .scroll-text {
   display: inline-flex;
   animation: scroll-left 35s linear infinite;
   transform: translateX(0);
+  
 }
 
 .scroll-text span {

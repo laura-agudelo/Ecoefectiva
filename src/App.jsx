@@ -40,12 +40,13 @@ export default function App() {
         <RollingGallery autoplay={true} pauseOnHover={true} />
       </div>
 
+   <div>
+      <Counter/>
+    </div>
       <div>
         <ImagenCard></ImagenCard>
       </div>
-       <div>
-      <Counter/>
-    </div>
+    
 
       <div className="contenedor-principal-index">
         <div className="contenedor-index">
