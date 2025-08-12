@@ -12,6 +12,7 @@ import textsData from "./assets/data/Card.json";
 import twoColomData from "./assets/data/TwoColumn.json";
 import ImagenCardData from "./assets/data/imagenCard.json";
 import AnnouncementBar from "./components/AnnouncementBar/AnnouncementBar";
+import CircularText from './components/CircularText/CircularText.jsx';
 import "./styles/globals.css";
 import "./App.css";
 
@@ -43,6 +44,12 @@ export default function App() {
 
       <div>
         <Counter />
+        <CircularText
+  text="REACT*BITS*COMPONENTS*"
+  onHover="speedUp"
+  spinDuration={20}
+  className="custom-class"
+/>   
       </div>
       <div>
         <ImagenCard
