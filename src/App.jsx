@@ -41,7 +41,7 @@ export default function App() {
         <ControllerCard textsData={textsData}></ControllerCard>
       </div>
       <div></div>
-      <div>
+      <div className="contenedor-principal-two-colomns">
         <TwoColumn
           title={twoColomData[0].title}
           text={twoColomData[0].text}
@@ -50,7 +50,7 @@ export default function App() {
           textOnLeft={twoColomData[0].textOnLeft}
         />
       </div>
-      <div>
+      <div className="contenedor-principal-two-colomns">
         <TwoColumn
           title={twoColomData[1].title}
           text={twoColomData[1].text}
@@ -59,7 +59,7 @@ export default function App() {
           textOnLeft={twoColomData[1].textOnLeft}
         />
       </div>
-      <div>
+      <div className="contenedor-principal-two-colomns">
         <TwoColumn
           title={twoColomData[2].title}
           text={twoColomData[2].text}

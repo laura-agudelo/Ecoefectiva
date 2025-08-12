@@ -7,7 +7,7 @@ body,
 }
 
 .contenedor-principal-index {
-  width: 80%; /* Ajusta este valor según lo necesites */
+  width: 80%;
   margin: 0 auto; /* Esto centra el elemento horizontalmente */
   display: flex;
   padding-top: 5%;
@@ -17,18 +17,23 @@ body,
 }
 
 .contenedor-index {
-  width: 20%; /* Ocupa el 20% del espacio horizontal, ajusta según necesites */
+  width: 20%;
+  height: 100%;
   display: flex;
   flex-direction: row-reverse;
   padding-right: 1%;
   align-items: center;
-  height: 100%; /* Ocupa toda la altura del contenedor principal */
 }
 
 .contenedor-card {
-  height: 100%; /* Ocupa toda la altura del contenedor principal */
+  height: 100%;
   display: flex;
   justify-content: left;
   align-items: center;
   padding-left: 1%;
+}
+
+.contenedor-principal-two-colomns {
+  margin-left: 10%;
+  margin-right: 10%;
 }
