@@ -4,7 +4,7 @@
     "description": "En esta unidad de pretratamiento, las aguas servidas provenientes de las alcantarillas son recibidas con el objetivo de retener y separar elementos sólidos de espesor mayor a 2 cm, los cuales se encuentran en suspensión y son arrastrados por el flujo de aguas residuales. En esta fase, se lleva a cabo la eliminación de sólidos como papeles, ramas, trapos, plásticos y, especialmente, material no biodegradable.",
     "image": [
       {
-        "src": "/src/assets/Images/img1.png",
+        "src": "img1.png",
         "title": "Cámara de Rejas",
         "text": "Unidad de pretratamiento que retiene sólidos grandes."
       }

@@ -10,7 +10,7 @@ function Testimonios() {
 
   return (
     <div className="testimonio-container">
-      <h1 className="testimonio-main-title">BIOMODULO</h1>
+      <h1 className="testimonio-main-title">Testimonios</h1>
 
       <div className="testimonio-content">
         {/* Contenedor de las dos imágenes con título */}
@@ -18,12 +18,12 @@ function Testimonios() {
           <h3 className="testimonio-subtitle">Nuestra Comunidad</h3>
           <div className="testimonio-images-wrapper">
             <img
-              src="/src/assets/Images/img1.png"
+              src="img1.png"
               alt="Imagen de la comunidad 1"
               className="image"
             />
             <img
-              src="/src/assets/Images/img1.png"
+              src="img1.png"
               alt="Imagen de la comunidad 2"
               className="image"
             />
@@ -32,9 +32,9 @@ function Testimonios() {
 
         {/* Contenedor del modal */}
         <div className="testimonio-column right-column">
-          <h3 className="testimonio-subtitle">Contactanos</h3>
+          <h3 className="testimonio-subtitle">Parte legal</h3>
           <img
-            src="/src/assets/Images/img1.png"
+            src="img1.png"
             alt="Imagen para abrir el modal"
             className="image-modal"
             onClick={openModal}

@@ -7,6 +7,8 @@ body,
 }
 
 .contenedor-principal-index {
+  width: 80%; /* Ajusta este valor según lo necesites */
+  margin: 0 auto; /* Esto centra el elemento horizontalmente */
   display: flex;
   padding-top: 5%;
   padding-bottom: 5%;
